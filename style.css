@@ -1,22 +1,28 @@
-/* Reset default browser styles */
-body, h1, h2, h3, p, ul, li {
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -33,24 +39,29 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Section styles */
 section {
     padding: 20px;
 }
 
-#about {
-    background-color: #f4f4f4;
+section h2 {
+    margin-bottom: 10px;
 }
 
-#projects .project {
+/* Project styles */
+.project {
     margin-bottom: 20px;
 }
 
+.project h3 {
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
 
